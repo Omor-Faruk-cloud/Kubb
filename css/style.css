@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header section css start  */
+header {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #cacaca;
+    transition: .4s all ease-in-out;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul li {
+    padding-left: 25px;
+}
+
+.navnav {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2392ac !important;
+}
+
+header h1 {
+
+    color: #fff;
+
+    margin-top: 18%;
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 span {
+    display: block;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 8.7px;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+
+header p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* header section css End  */
+
+/* Work section css Start  */
+.welcome {
+    background-color: #f9f9f9;
+}
+
+.welcome h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+}
+
+.welcome p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 12px;
+    color: #666666;
+}
+
+.welcome h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 55px;
+    color: #444444;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.landscape {
+    padding: 15px 15px;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+}
+
+.landscape h1 {
+    padding: 0px !important;
+    padding-top: 20px !important;
+    text-transform: capitalize;
+    color: #444444;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+}
+
+.landscape p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/* Work section css End  */
+/* Instagram section css Start  */
+.instagram {
+    background-color: #2c2c2c;
+}
+
+.instagram h1 {
+    color: #d5d5d5;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.instagram h1::before {
+    content: '';
+    position: absolute;
+    background-color: #535353;
+    top: 10px;
+    left: 32%;
+    width: 8%;
+    height: 1px;
+}
+
+.instagram h1::after {
+    content: '';
+    position: absolute;
+    background-color: #535353;
+    top: 10px;
+    right: 32%;
+    width: 8%;
+    height: 1px;
+}
+
+.btn-primarry {
+    color: #888888;
+    background-color: transparent;
+    border-color: #888888;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 11px 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primarry::before {
+    content: '';
+    position: absolute;
+    background-color: #2392ac;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transform-origin: top left;
+    transition: .5s all ease-in-out;
+    z-index: -1;
+}
+
+.btn-primarry:hover::before {
+    border: 1px solid #2392ac;
+    transform: scale(1);
+    transform-origin: bottom right;
+
+}
+
+.btn:hover {
+    color: #fff !important;
+}
+
+.instagram a i {
+    padding-right: 4px;
+    color: #888888;
+    font-size: 16px;
+    transition: .4s all ease-in-out;
+
+}
+
+.btn:hover i {
+    color: #fff !important;
+}
+
+/* Instagram section css End  */
+/* Journal section css Start  */
+.journal {
+    background-color: #f9f9f9;
+}
+
+.journal h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 14px;
+    color: #4f4f4f;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journal h1::before {
+    content: '';
+    position: absolute;
+    background-color: #d9d9d9;
+    top: 10px;
+    left: 30%;
+    width: 10%;
+    height: 1px;
+}
+
+.journal h1::after {
+    content: '';
+    position: absolute;
+    background-color: #d9d9d9;
+    top: 10px;
+    right: 30%;
+    width: 10%;
+    height: 1px;
+}
+
+.mushroom {
+    border: 1px solid #e3e3e3;
+    padding: 20px 0px;
+    background-color: #ffffff;
+}
+
+.mushroom h2 {
+    color: #444444;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mushroom p {
+    font-size: 12px;
+    color: #b3b3b3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mushroom .phot {
+    text-align: left;
+    font-size: 14px !important;
+    padding: 15px 20px 5px 20px;
+    color: #a0a0a0;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px !important;
+}
+
+.con_read {
+    text-align: left;
+    font-size: 11px !important;
+    padding: 15px 20px;
+    color: #a0a0a0 !important;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+}
+
+.con_read::before {
+    content: '';
+    position: absolute;
+    background-color: #28b8d8;
+    top: 33px;
+    left: 6%;
+    width: 30%;
+    height: 1px;
+}
+
+.mushroom i {
+    position: absolute;
+    font-size: 14px !important;
+    color: #d2d2d2;
+    bottom: 8%;
+    left: 81%;
+    transition: .4s all ease-in-out;
+}
+
+.mushroom i:hover {
+    color: red;
+}
+
+.services h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color: #444444;
+}
+
+.services .line::before {
+    content: '';
+    position: absolute;
+    right: 48%;
+    top: 25%;
+    height: 1px;
+    width: 20%;
+    background-color: #d9d9d9;
+}
+
+.services .second-line::before {
+    content: '';
+    position: absolute;
+    right: 54%;
+    top: 25%;
+    height: 1px;
+    width: 22%;
+    background-color: #d9d9d9;
+}
+
+.services h6 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #666666;
+    line-height: 28px;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 6%;
+    padding-bottom: 3px;
+}
+
+.services p {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 6%;
+    line-height: 24px;
+}
+
+.photogra h3 {
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 4%;
+}
+
+.photogra p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding-left: 14%;
+    line-height: 22px;
+    margin-bottom: 14px;
+}
+
+/* Journal section css End  */
+
+/* Description section css Start  */
+.description {
+    background-color: #373737;
+}
+
+.description h1 {
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.description p {
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.description ul {
+    color: #cacaca;
+}
+
+.description li i {
+    font-size: 12px;
+}
+
+.description li p {
+    color: #cacaca;
+    display: inline;
+    padding-left: 15px;
+}
+
+.description li .span {
+    color: #cacaca;
+    display: table-cell;
+    padding-left: 25px;
+    padding-bottom: 0px;
+}
+
+.posts p {
+    padding: 0;
+    margin: 0;
+}
+
+.posts time {
+    color: #929292;
+    font-size: 12px;
+}
+
+/* Description section css End  */
+/* Footer section css Start  */
+footer {
+    background-color: #333333;
+}
+
+footer p {
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+/* Footer section css End  */
